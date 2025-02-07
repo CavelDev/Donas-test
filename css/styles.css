@@ -1,0 +1,115 @@
+.logo{
+
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    padding-top: 70px;
+  }
+  
+
+
+ /* Custom Navbar Styles */
+
+  .nav-background{
+        background-color: #FF66C4;
+        padding: 16px 0px;
+  }
+
+  .navbar-brand {
+    color: white;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+  }
+
+  .navbar-brand:hover {
+    color: white;
+  }
+
+  .nav-link{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    margin: auto 4px;
+    border: transparent 2px solid;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+
+  .nav-link:hover {
+    color: white;
+    border: white 2px solid;
+    border-radius: 8px;
+    padding: 8px 24px;
+  }
+
+
+  .navbar-nav .nav-link.active {
+    color: #FF66C4;
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    border: white 2px solid;
+    border-radius: 8px;
+    padding: 8px 24px;
+  }
+  
+
+  .hero-banner {
+    background-image: url(/img/Banner-extendido-cortado.png); /* Imagen de fondo */
+    background-size: cover; /* La imagen cubre todo el área */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 600px; /* Toma toda la altura de la pantalla */
+    display: flex; /* Centra el contenido */
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+
+  /* Custom Styles for Tabs */
+  .custom-tabs {
+    
+
+  }
+
+  .custom-tabs .nav-link {
+    color: #cccccc;
+    font-weight: 700;
+    font-size: 24px;
+    margin-right: 10px;
+    padding: 8px 96px;
+    border-radius: 16px;
+    border: #cccccc solid 2px;
+    transition: all 0.3s ease;
+  }
+
+  .custom-tabs .nav-link.active {
+    background-color: #FF66C4;
+    color: #ffffff;
+  }
+
+  .custom-tabs .nav-link:hover {
+    color: #ffffff;
+    background-color: #FF99D6;
+  }
+
+  .tab-content {
+    padding: 20px;
+  }
+
+  .p-custom{
+    font-size: 20px;
+  }
+
+
+.background-form{
+  background-color: #FF66C4;
+  width: 600px;
+  height: auto;
+  padding: 40px;
+  color: white;
+  border-radius: 24px;
+}
